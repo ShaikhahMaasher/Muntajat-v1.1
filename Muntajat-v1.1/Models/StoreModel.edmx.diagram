@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7b3a327f557b49e88d21be445d497a3e" Name="Diagram1">
+        <EntityTypeShape EntityType="MuntajatDBModel.Address" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuntajatDBModel.Item" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuntajatDBModel.Store" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MuntajatDBModel.User" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="MuntajatDBModel.FK_Items_Stores" />
+        <AssociationConnector Association="MuntajatDBModel.FK_Stores_Users" />
+        <EntityTypeShape EntityType="MuntajatDBModel.Category" Width="1.5" PointX="9.625" PointY="6.875" />
+        <EntityTypeShape EntityType="MuntajatDBModel.City" Width="1.5" PointX="3" PointY="7.125" />
+        <EntityTypeShape EntityType="MuntajatDBModel.Country" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="MuntajatDBModel.OrderLine" Width="1.5" PointX="9.25" PointY="0.75" />
+        <EntityTypeShape EntityType="MuntajatDBModel.Order" Width="1.5" PointX="7.125" PointY="8.75" />
+        <EntityTypeShape EntityType="MuntajatDBModel.Promotion" Width="1.5" PointX="11.625" PointY="1.875" />
+        <EntityTypeShape EntityType="MuntajatDBModel.sysdiagram" Width="1.5" PointX="2.625" PointY="10.875" />
+        <AssociationConnector Association="MuntajatDBModel.FK_Addresses_Cities" />
+        <AssociationConnector Association="MuntajatDBModel.FK_Addresses_Countries" />
+        <AssociationConnector Association="MuntajatDBModel.FK_Categories_Categories" />
+        <AssociationConnector Association="MuntajatDBModel.FK_Cities_Cities" />
+        <AssociationConnector Association="MuntajatDBModel.FK_Cities_Countries" />
+        <AssociationConnector Association="MuntajatDBModel.FK_OrderLine_Items" />
+        <AssociationConnector Association="MuntajatDBModel.FK_OrderLine_Order" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
